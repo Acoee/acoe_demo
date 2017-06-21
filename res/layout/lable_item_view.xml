@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue_cornor_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/lable_item_textview"
+        style="@style/normal_text_style_12"
+        android:paddingBottom="@dimen/dimen_5"
+        android:paddingLeft="@dimen/dimen_5"
+        android:paddingTop="@dimen/dimen_5" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/lable_item_delete_imageview"
+        android:layout_width="@dimen/lable_del_btn_size_22"
+        android:layout_height="@dimen/lable_del_btn_size_22"
+        android:background="@drawable/edit_del_button_style"
+        android:visibility="gone"
+        android:contentDescription="@string/contentDescription" >
+    </ImageView>
+
+</LinearLayout>

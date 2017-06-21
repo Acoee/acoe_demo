@@ -1,0 +1,90 @@
+<resources>
+
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_7">7dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_9">9dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_11">11dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_13">13dp</dimen>
+    <dimen name="dimen_14">14dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_17">17dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_19">19dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_21">21dp</dimen>
+    <dimen name="dimen_22">22dp</dimen>
+    <dimen name="dimen_23">23dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_26">26dp</dimen>
+    <dimen name="dimen_27">27dp</dimen>
+    <dimen name="dimen_28">28dp</dimen>
+    <dimen name="dimen_29">29dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_31">31dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_33">33dp</dimen>
+    <dimen name="dimen_34">34dp</dimen>
+    <dimen name="dimen_35">35dp</dimen>
+    <dimen name="dimen_36">36dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_44">44dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_62">62dp</dimen>
+    <dimen name="dimen_70">70dp</dimen>
+    <dimen name="dimen_75">75dp</dimen>
+    <dimen name="dimen_85">85dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_110">110dp</dimen>
+    <dimen name="dimen_155">155dp</dimen>
+    <dimen name="dimen_305">305dp</dimen>
+    
+    <!-- 标题相关 -->
+    <dimen name="title_height">48dip</dimen>
+    <dimen name="title_button_width">55dip</dimen>
+    <dimen name="title_text_size">20dip</dimen>
+    <dimen name="title_switch_width">30dip</dimen>
+    
+    <!-- 对话框标题相关 -->
+    <dimen name="dialog_title_height">35dip</dimen>
+    
+    <!-- 按钮相关 -->
+    <dimen name="main_button_text_size">17dip</dimen>
+    <dimen name="main_button_height">41dip</dimen>
+    <dimen name="main_button_text_size_small">14dip</dimen>
+    <dimen name="main_button_height_small">30dip</dimen>
+    
+    <!-- 输入框相关 -->
+    <dimen name="edittext_height">48dip</dimen>
+    <dimen name="edittext_size">15dip</dimen>
+    <dimen name="edittext_height_35">35dip</dimen>
+    <dimen name="edittext_size_12">12dip</dimen>
+    
+    <dimen name="lable_del_btn_size_22">22dip</dimen>
+    
+    <!-- 普通字体相关 -->
+    <dimen name="normal_text_size">15dip</dimen>
+    
+    <!-- 询问导航栏 -->
+	<dimen name="nav_text_size">11dip</dimen>
+	<dimen name="nav_height">55dip</dimen>
+	
+	<!-- 个人中心行高 -->
+	<dimen name="center_item_height">41dip</dimen>
+	
+	<!-- 我的意向单详情列表行高 -->
+	<dimen name="mywishin_detail_item_height">27dip</dimen>
+	
+	<dimen name="wheel_item_height">46dip</dimen>
+	
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_color" >
+    
+    <include layout="@layout/title_bar_view"/>
+    
+    <Button
+        android:id="@+id/map_location_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="50dip"
+        android:text="地图定位，显示定位图标" />
+    
+    <Button
+        android:id="@+id/map_marker_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="20dip"
+        android:text="多覆盖物，并显示弹框" />
+    
+    <Button
+        android:id="@+id/map_path_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="20dip"
+        android:text="检索、路线查询与GL绘制" />
+    
+    
+    <Button
+        android:id="@+id/map_guide_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="20dip"
+        android:text="导航" />
+    
+    <Button
+        android:id="@+id/map_scenery_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="20dip"
+        android:text="全景" />
+
+</LinearLayout>

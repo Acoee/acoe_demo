@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.acoe.demo.view.CouponBgView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:coupon="http://schemas.android.com/apk/res/com.app.acoe.demo"
+    android:layout_width="match_parent"
+    android:layout_height="200dip"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:layout_marginTop="20dip"
+    android:orientation="horizontal"
+    android:background="#47bdbd"
+    android:layout_gravity="center_vertical"
+    coupon:horizontal_style="circle" 
+    coupon:vertical_style="circle" >
+    
+    <LinearLayout 
+        android:layout_width="0dip"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dip"
+        android:paddingRight="5dip"
+        android:paddingTop="40dip"
+        android:paddingBottom="40dip"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:id="@+id/coupon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="14dip"
+            android:text="XXX优惠券"/>
+        
+        <TextView 
+            android:id="@+id/coupon_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:textSize="13dip"
+            android:textColor="#fc4a36"
+            android:text="全场五折优惠"/>
+        
+        <TextView 
+            android:id="@+id/coupon_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:textSize="11dip"
+            android:textColor="@color/white"
+            android:text="券编号：201607122123545"/>
+        
+        <TextView
+            android:id="@+id/coupon_expiry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:textSize="11dip"
+            android:textColor="@color/white"
+            android:text="有效期：2016-07-12至2016-08-12" />
+        
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="100dip"
+        android:layout_marginRight="20dip"
+        android:src="@drawable/coupon_acg"
+        android:layout_gravity="center"/>
+
+</com.app.acoe.demo.view.CouponBgView>

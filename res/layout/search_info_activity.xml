@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_color" >
+    
+    <include layout="@layout/title_bar_view"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/bus_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dip"
+            android:text="公交" />
+        
+        <Button
+            android:id="@+id/driver_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dip"
+            android:text="驾车" />
+        
+        <Button
+            android:id="@+id/walk_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="30dip"
+            android:text="步行" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:padding="10dp">
+        
+        <TextView
+            android:id="@+id/origin_textview"
+            style="@style/normal_text_style"
+            android:layout_centerVertical="true"
+            android:text="起点："/>
+        
+        <ProgressBar
+            android:id="@+id/origin_progressbar"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+        
+        <EditText
+            android:id="@+id/origin_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/origin_progressbar"
+            android:layout_toRightOf="@+id/origin_textview"
+            android:text="我的位置" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+        
+        <TextView
+            android:id="@+id/end_textview"
+            style="@style/normal_text_style"
+            android:layout_centerVertical="true"
+            android:text="终点："/>
+        
+        <ProgressBar
+            android:id="@+id/end_progressbar"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+        
+        <EditText
+            android:id="@+id/end_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/end_progressbar"
+            android:layout_toRightOf="@+id/end_textview"
+            android:text="终点" />
+    </RelativeLayout>
+    
+    <ListView 
+        android:id="@+id/info_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+</LinearLayout>

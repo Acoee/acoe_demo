@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- tab indicator样式 -->
+    <style name="MyTheme_tab" parent="@android:style/Theme.NoTitleBar">
+        <item name="vpiTabPageIndicatorStyle">@style/MyWidget.TabPageIndicator</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:animationDuration">5000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@drawable/viewpager_title_textcolor</item>
+    </style>
+
+    <style name="MyWidget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/tab_blue_indicator</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textAppearance">@style/MyTextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="MyTextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- 通用字体样式 -->
+    <style name="normal_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dimen_16</item>
+        <item name="android:textColor">@color/normal_text_color</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="normal_text_style_14" parent="@style/normal_text_style">
+        <item name="android:textSize">@dimen/dimen_14</item>
+    </style>
+    <style name="normal_text_style_12" parent="@style/normal_text_style">
+        <item name="android:textSize">@dimen/dimen_12</item>
+    </style>
+    <style name="normal_text_style_gray" parent="@style/normal_text_style">
+        <item name="android:textColor">@color/normal_gray_color</item>
+    </style>
+    <style name="normal_text_style_gray_14" parent="@style/normal_text_style_gray">
+        <item name="android:textSize">@dimen/dimen_14</item>
+    </style>
+    
+    <style name="like_toast_dialog_style">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/gray_cornor_bg</item>
+    </style>
+    
+    <!-- ScrollView样式 -->
+    <style name="scroll_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+	<style name="listview_style" parent="@style/scroll_style">
+        <item name="android:listSelector">@android:color/transparent</item>
+    </style>
+</resources>

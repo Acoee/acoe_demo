@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color" >
+    
+    <include layout="@layout/title_bar_view" />
+    
+    
+	<ImageView
+	    android:id="@+id/play_mode_center_imageview"
+	    android:layout_width="31.5dip"
+	    android:layout_height="31.5dip"
+	    android:layout_centerInParent="true"
+	    android:contentDescription="@null"
+	    android:background="@drawable/play_mode_order_icon" />
+	
+	<ImageView
+	    android:id="@+id/play_order_top_imageview"
+	    android:layout_width="31.5dip"
+	    android:layout_height="31.5dip"
+	    android:layout_above="@+id/play_mode_center_imageview"
+	    android:layout_alignLeft="@+id/play_mode_center_imageview"
+	    android:layout_marginBottom="10dip"
+	    android:contentDescription="@null"
+	    android:visibility="gone"
+	    android:background="@drawable/play_mode_order_icon" />
+	
+	<ImageView
+	    android:id="@+id/play_repeat_left_imageview"
+	    android:layout_width="31.5dip"
+	    android:layout_height="31.5dip"
+	    android:layout_alignBottom="@+id/play_mode_center_imageview"
+	    android:layout_toLeftOf="@+id/play_mode_center_imageview"
+	    android:layout_marginRight="10dip"
+	    android:contentDescription="@null"
+	    android:visibility="gone"
+	    android:background="@drawable/play_mode_repeat_icon" />
+	
+	<ImageView
+	    android:id="@+id/play_cycle_right_imageview"
+	    android:layout_width="31.5dip"
+	    android:layout_height="31.5dip"
+	    android:layout_alignBottom="@+id/play_mode_center_imageview"
+	    android:layout_toRightOf="@+id/play_mode_center_imageview"
+	    android:layout_marginLeft="10dip"
+	    android:contentDescription="@null"
+	    android:visibility="gone"
+	    android:background="@drawable/play_mode_cycle_icon" />
+	
+	<ImageView
+	    android:id="@+id/play_random_bottom_imageview"
+	    android:layout_width="31.5dip"
+	    android:layout_height="31.5dip"
+	    android:layout_below="@+id/play_mode_center_imageview"
+	    android:layout_alignLeft="@+id/play_mode_center_imageview"
+	    android:layout_marginTop="10dip"
+	    android:contentDescription="@null"
+	    android:visibility="gone"
+	    android:background="@drawable/play_mode_random_icon" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_bg_color">#f8f8f8</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="white">#ffffff</color>
+    <!-- 普通字体颜色 -->
+    <color name="normal_text_color">#323232</color>
+    <color name="normal_gray_color">#999999</color>
+    <color name="normal_text_pressed_color">#404040</color>
+    <!-- 蓝色调相关 -->
+    <color name="blue_color">#149be9</color>
+    <color name="blue_pressed_color">#0e6ca3</color>
+    <color name="blue_disable_color">#5bb9f0</color>
+    <!-- Popup Window对话框背景色 -->
+    <color name="popup_bg_color">#49484b</color>
+    <!-- 分割线颜色 -->
+    <color name="line_color">#d2d1d1</color>
+</resources>
